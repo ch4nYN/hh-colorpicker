@@ -1,0 +1,29 @@
+.hh-colorboard-swatch {
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px;
+  min-width: 125px;
+  width: 20%;
+  height: 145px;
+  position: relative;
+  border-radius: 5px;
+}
+.hh-colorboard-swatch:hover {
+  width: 22%;
+}
+.hh-colorboard-swatch-desc {
+  width: 100%;
+  min-height: 40px;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(238, 238, 238);
+  line-height: 2.5;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 649px) {
+  .hh-colorboard-swatch {
+    margin: 3px;
+  }
+}

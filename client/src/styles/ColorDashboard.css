@@ -1,0 +1,16 @@
+.hh-colorboard {
+  vertical-align: top;
+  padding-top: 50px;
+  display: inline-block;
+  width: calc(75% - 3px);
+  text-align: center;
+  height: calc(100vh - 110px);
+  overflow-y: auto;
+}
+@media screen and (max-width: 649px) {
+  .hh-colorboard {
+    padding-top: 5px;
+    width: 100%;
+    height: auto;
+  }
+}

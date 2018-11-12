@@ -1,0 +1,14 @@
+#navbar-right-searchbar {
+  margin-right: 40px;
+  float:right;
+  width: 30%;
+  min-width: 200px;
+  border-radius: 2px;
+  padding: 5px 10px;
+  height: 25px;
+  font-size: 16px;
+  border-style:none;
+}
+#navbar-right-searchbar:focus {
+  outline: none;
+}
